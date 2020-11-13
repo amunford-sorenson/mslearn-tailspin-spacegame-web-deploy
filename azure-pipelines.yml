@@ -6,10 +6,10 @@ variables:
 
 stages:
 - stage: 'Build'
-  displayname: 'Build the web application'
+  displayName: 'Build the web application'
   jobs:
   -job: 'Build'
-    displayname: 'Build Job'
+    displayName: 'Build Job'
     pool:
       vmImage: 'ubuntu-18.04'
       demands:
